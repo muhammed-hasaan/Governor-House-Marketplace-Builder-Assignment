@@ -1,0 +1,11 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Verify product listing page loads,"1. Open homepage.
+2. Check product listing section.",Product listing page displays all products dynamically.,Product listing page loaded successfully.,Passed,Low,N/A,Works as expected.
+TC002,Verify search functionality,"1. Enter a product name in the search bar.
+2. Press Enter.",Products matching the search query are displayed.,Correct products are shown based on the search query.,Passed,Low,N/A,Search works without issues.
+TC003,Check pagination on product list,"1. Scroll to bottom of product listing.
+2. Click on next page button.",Products for the next page are displayed.,Pagination loads products for the next page seamlessly.,Passed,Medium,N/A,Optimize for faster loading.
+TC004,Validate API integration for product details,"1. Click on any product card.
+2. Check product detail page.",Product details load dynamically via API.,"API returned correct data, and the page rendered successfully.",Passed,Low,N/A,API response time optimized.
+TC005,Test responsiveness on mobile,"1. Open site on mobile device.
+2. Check if all components are responsive.",Layout adjusts seamlessly to mobile screens.,Some components overlap on smaller screens.,Failed,High,Frontend Dev,Needs urgent CSS fixes.
